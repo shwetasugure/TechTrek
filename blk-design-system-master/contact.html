@@ -4,69 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>TechTrek</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="design/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
-
 </head>
 
 <body>
-    <div class="navigation">
-        <h1><a href="/contact.html">Tech<span>Trek.</span></a></h1>
-        <ul>
-            <li class="list">
-                <a href="/index.html">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                    <span class="text">Home</span>
-                    <span class="circle"></span>
-                </a>
-            </li>
-            <li class="list active">
-                <a href="/about.html">
-                    <span class="icon">
-                        <ion-icon name="help-outline"></ion-icon>
-                    </span>
-                    <span class="text">About Us</span>
-                    <span class="circle"></span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="/contact.html">
-                    <span class="icon">
-                        <ion-icon name="call-outline"></ion-icon>
-                    </span>
-                    <span class="text">Contact</span>
-                    <span class="circle"></span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="/login.html">
-                    <span class="icon">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </span>
-                    <span class="text">Profile</span>
-                    <span class="circle"></span>
-                </a>
-            </li>
-            <div class="indicator"></div>
-        </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">TechTrek</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span> <!-- Add the toggler icon here -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <!-- <div class="container">
-        <!-- Remove the 'About Us' list item 
-        <li class="list">
-            <a href="/contact.html">
-                <span class="icon">
-                    <ion-icon name="call-outline"></ion-icon>
-                </span>
-                <span class="text">Contact</span>
-                <span class="circle"></span>
-            </a>
-        </li> -->
 
     <section class="contact-section">
         <div class="contact-bg">
@@ -77,7 +48,9 @@
                 <div></div>
                 <div></div>
             </div>
-            <p class="text">Thank you for your interest in TechTrek.! If you have any questions, feedback, or would like to collaborate with us, feel free to get in touch. We value your input and are here to assist you in any way we can.
+            <p class="text">Thank you for your interest in TechTrek.! If you have any questions, feedback, or would like
+                to collaborate with us, feel free to get in touch. We value your input and are here to assist you in any
+                way we can.
             </p>
         </div>
 
@@ -110,10 +83,10 @@
                 </div>
             </div>
             <div id="images-cont">
-                
-                
-                
-                
+
+
+
+
 
             </div>
 
@@ -148,10 +121,11 @@
     </section>
     </div>
 
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script src="/nav.js"></script>
 
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
