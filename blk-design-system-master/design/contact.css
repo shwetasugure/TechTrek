@@ -73,6 +73,11 @@ body {
 }
 
 /* Additional Styles for About Us Page */
+
+.contact-bg h3 {
+    margin-top: 100px;
+}
+
 .contact-bg {
     height: 40vh;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/contact.png);

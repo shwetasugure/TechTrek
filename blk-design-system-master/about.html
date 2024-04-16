@@ -4,38 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTrek</title>
+    <title>About Us</title>
     <!-- Bootstrap CSS -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
+    <link rel="stylesheet" href="design/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="design/about.css">
+    <link href="./assets/demo/demo.css" rel="stylesheet" />
+    <link href="home.css" rel="stylesheet" />
 </head>
 
 <body class="index-page">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="50">
         <div class="container">
-            <a class="navbar-brand" href="./index.html">TechTrek</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./login.html">Profile</a>
-                    </li>
-                </ul>
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="./index.html">
+                    <span>TechTrek</span>
+                </a>
+                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
             </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a>
+
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close text-right">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <i class="tim-icons icon-simple-remove"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav">
+
+                    <li class="dropdown nav-item">
+                        <div class="dropdown-menu dropdown-with-icons">
+                    <li class="nav-item">
+                        <a href="./index.html" class="dropdown-item">
+                            <i class="tim-icons icon-paper"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about.html" class="dropdown-item">
+                            <i class="tim-icons icon-bullet-list-67"></i> About us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html" class="dropdown-item">
+                            <i class="tim-icons icon-image-02"></i> Contact us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./login.html" class="dropdown-item">
+                            <i class="tim-icons icon-single-02"></i> Profile
+                        </a>
+                    </li>
+            </div>
+            </li>
+            </ul>
+        </div>
         </div>
     </nav>
     <!-- Header -->
