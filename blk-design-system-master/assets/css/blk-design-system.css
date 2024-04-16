@@ -5041,9 +5041,18 @@ input[type="button"].btn-block {
 
 .pagination {
   display: flex;
+  width: 100%;
+  justify-content: center;
   padding-left: 0;
   list-style: none;
   border-radius: 0.25rem;
+}
+@media only screen and (max-width: 768px) {
+  .pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+  }
 }
 
 .page-link {
@@ -17167,6 +17176,8 @@ textarea.form-control:active {
   display: block;
   font-size: 24px;
   line-height: 60px;
+  width: 200px;
+  height: 200px;
 }
 
 .nav-pills.nav-pills-neutral .nav-item .nav-link {
