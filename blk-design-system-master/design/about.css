@@ -78,7 +78,6 @@ body {
 .container {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 20px;
 }
 
 .container h1 {
@@ -86,7 +85,7 @@ body {
 }
 
 .container #intro {
-    background-color: #d9f0ff;
+    background-color: #0b0c0c;
     color: #001d3d;
 }
 
@@ -142,14 +141,16 @@ h3 {
 }
 
 #modules {
+
     margin-bottom: 40px;
     background-color: #d9f0ff;
     border-radius: 20px;
 }
 
 .content {
+
     padding: 20px;
-    background-color: #d9f0ff;
+    background-color: #080909;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
