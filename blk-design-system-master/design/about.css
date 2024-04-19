@@ -64,12 +64,12 @@ body {
 .container #modules .content .years .year2,
 .container #modules .content .years .year3,
 .container #modules .content .years .year4 {
-    background-color: #ffe6cc !important;
+    background-color: #0e0454 !important;
 }
 
 
 .index-page {
-    background-color: #fff5e6;
+    background-color: #0e0454;
 }
 
 .index-page .i {
@@ -77,13 +77,14 @@ body {
 }
 
 .container h1 {
-    color: black;
+    color: rgb(255, 251, 251);
 }
 
 /* Custom CSS for navbar */
 
 .content1 {
-    background-color: #cce6ff;
+    background-color: #77b7f3;
+    border-radius: 2rem;
     /* Set background color to white */
 }
 
