@@ -1,75 +1,114 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background: url(/bgpages.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
-/* Custom CSS for navbar */
-
-
-
-/*Navbar*/
-/* Custom CSS for navbar */
-.navbar-brand {
-    font-weight: bold;
+/*navbar*/
+.navbar.custom-navbar {
+    background-color: #fff5e6 !important;
 }
 
-.navbar-nav .nav-link {
-    font-weight: bold;
-}
-
-
-/*Navbar*/
-/* Custom CSS for navbar */
-.navbar {
-    background-color: rgba(0, 0, 0, 0.256);
-    /* Adjust the background color and transparency as needed */
-}
-
-.navbar-brand {
-    color: #fff;
-    /* Navbar brand text color */
-    font-weight: bold;
-    /* Navbar brand font weight */
+.navbar.custom-navbar a {
+    color: rgb(0, 0, 0);
 }
 
 .navbar-toggler-icon {
-    background-color: #fff;
-    /* Navbar toggler icon color */
+    color: rgb(255, 255, 255);
+}
+
+.custom-navbar.scrolled {
+    background-color: #ffe6cc !important;
+}
+
+
+#modules {
+    background-color: white !important;
+    color: rgba(0, 0, 0, 0.301) !important;
+}
+
+
+#modules .years .year1,
+#modules .years .year2,
+#modules .years .year3,
+#modules .years .year4 {
+    background-color: rgba(0, 0, 0, 0.393) !important;
+}
+
+#modules .years .year1 h3,
+#modules .years .year2 h3,
+#modules .years .year3 h3,
+#modules .years .year4 h3 {
+    color: rgb(0, 0, 0) !important;
+}
+
+#modules .years .year1 p,
+#modules .years .year2 p,
+#modules .years .year3 p,
+#modules .years .year4 p {
+    color: rgb(0, 0, 0) !important;
+}
+
+#modules .content {
+    background-color: #cce6ff;
+    color: rgb(0, 0, 0);
+}
+
+#modules .content h2,
+#modules .content p,
+#modules .content h3,
+#modules .content a {
+    color: black !important;
+}
+
+.container #modules .content .years .year1,
+.container #modules .content .years .year2,
+.container #modules .content .years .year3,
+.container #modules .content .years .year4 {
+    background-color: #ffe6cc !important;
+}
+
+
+.index-page {
+    background-color: #fff5e6;
+}
+
+.index-page .i {
+    color: black;
+}
+
+.container h1 {
+    color: black;
+}
+
+/* Custom CSS for navbar */
+
+.content1 {
+    background-color: #cce6ff;
+    /* Set background color to white */
+}
+
+.text-content h2,
+.text-content h3,
+.text-content p {
+    color: black;
+    /* Set text color to black */
+}
+
+
+
+/*Navbar*/
+/* Custom CSS for navbar */
+.navbar-brand {
+    font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-    color: #fff;
-    /* Navbar link text color */
     font-weight: bold;
-    /* Navbar link font weight */
 }
 
-.navbar-nav .nav-link:hover {
-    color: #ccc;
-    /* Navbar link hover color */
-}
 
-.dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.8);
-    /* Dropdown menu background color */
-}
-
-.dropdown-menu .dropdown-item {
-    color: #fff;
-    /* Dropdown item text color */
-}
-
-.dropdown-menu .dropdown-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    /* Dropdown item hover background color */
-    color: #fff;
-    /* Dropdown item hover text color */
-}
+/*Navbar*/
+/* Custom CSS for navbar */
 
 
 

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <!-- Bootstrap CSS -->
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="design/about.css">
@@ -21,11 +20,52 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/demo/demo.css" rel="stylesheet" />
     <link href="home.css" rel="stylesheet" />
+    <!-- Custom CSS for navbar -->
+    <style>
+        .navbar.custom-navbar {
+            background-color: aqua;
+        }
+
+        .navbar.custom-navbar.scrolled {
+            background-color: #00FFFF;
+            /* Aqua color */
+        }
+
+        .navbar.custom-navbar .nav-link,
+        .navbar.custom-navbar .dropdown-item {
+            color: black !important;
+        }
+
+        .navbar.custom-navbar .dropdown-menu {
+            background-color: aqua;
+        }
+
+        .navbar.custom-navbar .dropdown-menu a {
+            color: black !important;
+        }
+
+        /* Media Query for smaller screens */
+        @media (max-width: 768px) {
+            .navbar.custom-navbar .dropdown-menu {
+                background-color: transparent;
+                /* Change background color for smaller screens */
+                border: none;
+                /* Remove border */
+                box-shadow: none;
+                /* Remove shadow */
+            }
+
+            .navbar.custom-navbar .dropdown-menu a {
+                color: white !important;
+                /* Change text color for smaller screens */
+            }
+        }
+    </style>
 </head>
 
 <body class="index-page">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="50">
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" color-on-scroll=" 50">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="./index.html">
@@ -87,14 +127,30 @@
         </div>
     </nav>
     <!-- Header -->
-
-
-
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- JavaScript for navbar background color change -->
+    <script>
+        // Select the navbar element
+        const navbar = document.querySelector('.custom-navbar');
 
+        // Function to handle scroll event
+        function handleScroll() {
+            // Check if the page has been scrolled down
+            if (window.scrollY > 0) {
+                // Add the 'scrolled' class to the navbar
+                navbar.classList.add('scrolled');
+            } else {
+                // Remove the 'scrolled' class from the navbar
+                navbar.classList.remove('scrolled');
+            }
+        }
+
+        // Add scroll event listener
+        window.addEventListener('scroll', handleScroll);
+    </script>
     <div class="container">
         <header>
             <h1>About Us</h1>
