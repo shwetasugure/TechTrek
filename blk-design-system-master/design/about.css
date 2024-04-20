@@ -5,19 +5,31 @@ body {
 
 /*navbar*/
 .navbar.custom-navbar {
-    background-color: #fff5e6 !important;
+    background-color: #f5cef9 !important;
 }
 
 .navbar.custom-navbar a {
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar.custom-navbar i {
+    color: rgb(0, 0, 0) !important;
 }
 
 .navbar-toggler-icon {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.navbar.custom-navbar.scrolled i {
+    color: white !important;
+}
+
+.navbar.custom-navbar.scrolled a {
+    color: white !important;
 }
 
 .custom-navbar.scrolled {
-    background-color: #ffe6cc !important;
+    background-color: #001d3d !important;
 }
 
 
@@ -49,7 +61,7 @@ body {
 }
 
 #modules .content {
-    background-color: #cce6ff;
+    background: linear-gradient(120deg, #df99ff, rgb(255, 255, 255));
     color: rgb(0, 0, 0);
 }
 
@@ -64,7 +76,7 @@ body {
 .container #modules .content .years .year2,
 .container #modules .content .years .year3,
 .container #modules .content .years .year4 {
-    background-color: #0e0454 !important;
+    background-color: #ffffff !important;
 }
 
 
@@ -83,11 +95,11 @@ body {
 /* Custom CSS for navbar */
 
 .content1 {
-    background: linear-gradient(45deg, rgb(90,49,136), #642F7C);
+    background: linear-gradient(120deg, rgb(255, 255, 255), #ac1aef);
     border-radius: 2rem;
 }
-    
-    /* Set background color to white */
+
+/* Set background color to white */
 
 
 .text-content h2,

@@ -8,11 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background: url(/bgpages.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: white !important;
 }
 
 .navbar-brand {
@@ -26,53 +22,39 @@ body {
 
 /*Navbar*/
 /* Custom CSS for navbar */
-.navbar {
-    background-color: rgba(0, 0, 0, 0.5);
-    /* Adjust the background color and transparency as needed */
+.navbar.custom-navbar {
+    background-color: #f5cef9 !important;
 }
 
-.navbar-brand {
-    color: #fff;
-    /* Navbar brand text color */
-    font-weight: bold;
-    /* Navbar brand font weight */
+.navbar.custom-navbar a {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar.custom-navbar i {
+    color: rgb(0, 0, 0) !important;
 }
 
 .navbar-toggler-icon {
-    background-color: #fff;
-    /* Navbar toggler icon color */
+    color: rgb(0, 0, 0);
 }
 
-.navbar-nav .nav-link {
-    color: #fff;
-    /* Navbar link text color */
-    font-weight: bold;
-    /* Navbar link font weight */
+.navbar.custom-navbar.scrolled i {
+    color: white !important;
 }
 
-.navbar-nav .nav-link:hover {
-    color: #ccc;
-    /* Navbar link hover color */
+.navbar.custom-navbar.scrolled a {
+    color: white !important;
 }
 
-.dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.8);
-    /* Dropdown menu background color */
-}
-
-.dropdown-menu .dropdown-item {
-    color: #fff;
-    /* Dropdown item text color */
-}
-
-.dropdown-menu .dropdown-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    /* Dropdown item hover background color */
-    color: #fff;
-    /* Dropdown item hover text color */
+.custom-navbar.scrolled {
+    background-color: #001d3d !important;
 }
 
 /* Additional Styles for About Us Page */
+
+.contact-section {
+    background-color: #ffffff !important;
+}
 
 .contact-bg h3 {
     margin-top: 100px;
@@ -124,7 +106,7 @@ body {
 .line div:nth-child(2) {
     width: 10px;
     height: 10px;
-    background: #f7327a;
+    background: #f7327a !important;
     border-radius: 50%;
 }
 
@@ -135,11 +117,19 @@ body {
 
 .contact-bg {
     margin-top: 100px;
+    background: white;
+}
+
+.contact-bg h2,
+.contact-bg h3 {
+    color: black;
+    /* Ensures h2 and h3 tags inside .contact-bg are also black */
 }
 
 .contact-bg .text {
     margin: 1.6rem 0;
     font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 
 .contact-body {
@@ -167,7 +157,7 @@ body {
 .contact-info span .fas {
     font-size: 2rem;
     padding-bottom: 0.9rem;
-    color: #ffffff;
+    color: #000000;
 }
 
 .contact-info div span:nth-child(2) {
@@ -189,8 +179,8 @@ body {
 
 .form-control {
     width: 100%;
-    border: 2px solid white;
-    background-color: #7fceff;
+    border: 2px solid rgb(0, 0, 0) !important;
+    background-color: #7fceff !important;
     color: rgb(0, 0, 0);
     border-radius: 5px;
     padding: 0.7rem;
@@ -229,8 +219,9 @@ body {
 
 .send-btn:hover {
     opacity: 0.8;
-    background-color: black;
+    background-color: #2a5b8f;
     border-color: white;
+    border: 2px solid black;
 }
 
 .contact-form {
