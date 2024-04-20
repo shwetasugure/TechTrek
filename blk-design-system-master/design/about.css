@@ -544,3 +544,9 @@ ul {
     border-radius: 5px;
     /* Adjust as needed */
 }
+
+#msg{
+    color: #000000;
+    margin-left: 1000px;
+    display: block;
+}

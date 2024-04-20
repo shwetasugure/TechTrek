@@ -191,18 +191,19 @@
             </div>
 
             <div class="contact-form">
-                <form>
+                <form name="submit-to-google-sheet">
                     <div>
-                        <input type="text" class="form-control" placeholder="First Name" required>
-                        <input type="text" class="form-control" placeholder="Last Name" required>
+                        <input type="text" name="first-name" class="form-control" placeholder="First Name" required>
+                        <input type="text" name="last-name" class="form-control" placeholder="Last Name" required>
                     </div>
                     <div>
-                        <input type="email" class="form-control" placeholder="E-mail" required>
-                        <input type="text" class="form-control" placeholder="Phone" required>
+                        <input type="email" name="email" class="form-control" placeholder="E-mail" required>
+                        <input type="text" name="phone" class="form-control" placeholder="Phone" required>
                     </div>
-                    <textarea rows="5" id="msg" required placeholder="Message" class="form-control"></textarea>
+                    <textarea rows="5" id="msg" required placeholder="Message" name="message" class="form-control"></textarea>
                     <input type="submit" class="send-btn" value="send message" required>
                 </form>
+                <span id="msg2"></span>
 
                 <div>
                     <img src="image/contact-png.png" alt="">
@@ -211,11 +212,11 @@
             <div class="contact-footer">
                 <h3>Follow Us</h3>
                 <div class="social-links">
-                    <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="https://youtube.com/@TechTrek-wit?si=IBGeM_39wBVz2f8H" class="fab fa-youtube"></a>
+                    <a href="https://medium.com/@shwetasugure333" class="fab fa-medium"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="https://www.linkedin.com/in/shweta-sugure/" class="fab fa-linkedin"></a>
-                    <a href="#" class="fab fa-youtube"></a>
+                    
                 </div>
             </div>
     </section>
@@ -226,6 +227,24 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxyVZsDZhACz5GkyoBqc9o_f0Q7OmRXN4EihjWwsgqJ07oFO2ZxxON8VUvXzLeOVDKf/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg2")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 
 </html>
