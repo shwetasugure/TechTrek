@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: white !important;
+    background: linear-gradient(270deg, #df99ff, rgb(255, 255, 255)) !important;
 }
 
 .navbar-brand {
@@ -23,7 +23,7 @@ body {
 /*Navbar*/
 /* Custom CSS for navbar */
 .navbar.custom-navbar {
-    background-color: #f5cef9 !important;
+    background-color: #ced3f900 !important;
 }
 
 .navbar.custom-navbar a {
@@ -52,20 +52,12 @@ body {
 
 /* Additional Styles for About Us Page */
 
-.contact-section {
-    background-color: #ffffff !important;
-}
-
 .contact-bg h3 {
     margin-top: 100px;
 }
 
 .contact-bg {
     height: 40vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/contact.png);
-    background-position: 50% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
     color: #fff;
     display: flex;
@@ -76,10 +68,11 @@ body {
 
 .contact-bg h3 {
     font-size: 1.3rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .contact-bg h2 {
+    font-weight: bold;
     font-size: 3rem;
     text-transform: uppercase;
     padding: 0.4rem 0;
@@ -117,7 +110,7 @@ body {
 
 .contact-bg {
     margin-top: 100px;
-    background: white;
+    /* background: linear-gradient(180deg, #df99ff, rgb(255, 255, 255)) !important; */
 }
 
 .contact-bg h2,
@@ -132,6 +125,7 @@ body {
     color: rgb(0, 0, 0);
 }
 
+
 .contact-body {
     max-width: 1320px;
     margin: 80px auto;
@@ -139,6 +133,7 @@ body {
 }
 
 .contact-info {
+
     margin: 2rem 0;
     text-align: center;
     padding: 2rem 0;
@@ -172,10 +167,10 @@ body {
 .contact-info img {
     max-width: 180px;
     height: auto;
-    padding-left: 60px;
-    padding-top: 15px;
+    margin-top: 15px;
     border-radius: 20px;
 }
+
 
 .form-control {
     width: 100%;
@@ -217,6 +212,11 @@ body {
     border: 2px solid black;
 }
 
+#msg {
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
 .send-btn:hover {
     opacity: 0.8;
     background-color: #2a5b8f;
@@ -242,12 +242,13 @@ body {
 .contact-footer {
     padding: 2rem 0;
     background: transparent;
-    color: #f7327a;
+    color: #ffffff;
 }
 
 .contact-footer h3 {
+    font-weight: bold;
     font-size: 1.3rem;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 1rem;
     text-align: center;
 }
@@ -273,6 +274,7 @@ body {
 }
 
 .social-links a:hover {
+    color: white;
     background-color: black;
     border-color: white;
 }
