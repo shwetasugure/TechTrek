@@ -103,6 +103,10 @@ body {
 }
 
 /* Set background color to white */
+.dropdown nav-item .dropdown-item a {
+    color: white !important;
+}
+
 
 
 .text-content h2,
