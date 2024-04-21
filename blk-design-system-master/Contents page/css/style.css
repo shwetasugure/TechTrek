@@ -4,7 +4,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-color: #2776b7b2;
+  background: linear-gradient(180deg, #df99ff, rgb(255, 255, 255)) !important;
   overflow-x: hidden;
 }
 
@@ -137,10 +137,17 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
-  color: #272727;
-  text-transform: uppercase;
+  color: #000000;
+}
+
+.navbar-brand.scrolled span {
+  color: white !important;
+}
+
+.navbar.custom-navbar.scrolled a {
+  color: rgb(255, 244, 244) !important;
 }
 
 .custom_nav-container {

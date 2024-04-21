@@ -41,6 +41,41 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  <style>
+    .navbar.custom-navbar.scrolled a {
+      color: rgb(255, 244, 244) !important;
+    }
+
+    .navbar.custom-navbar .nav-link,
+    .navbar.custom-navbar .dropdown-item {
+      color: black !important;
+    }
+
+    .navbar.custom-navbar .dropdown-menu a {
+      color: black !important;
+    }
+
+    .navbar-brand.scrolled a {
+      color: white !important;
+    }
+
+    /* Media Query for smaller screens */
+    @media (max-width: 768px) {
+      .navbar.custom-navbar .dropdown-menu {
+        background-color: transparent;
+        /* Change background color for smaller screens */
+        border: none;
+        /* Remove border */
+        box-shadow: none;
+        /* Remove shadow */
+      }
+
+      .navbar.custom-navbar .dropdown-menu a {
+        color: white !important;
+        /* Change text color for smaller screens */
+      }
+    }
+  </style>
 
 </head>
 
@@ -48,10 +83,10 @@
 
   <div class="hero_area">
     <!-- header section strats -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent " color-on-scroll="100">
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar" color-on-scroll=" 50">
       <div class="container">
         <div class="navbar-translate">
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="../index.html">
             <span>TechTrek</span>
           </a>
           <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
@@ -78,7 +113,6 @@
             </div>
           </div>
           <ul class="navbar-nav">
-
             <li class="dropdown nav-item">
               <div class="dropdown-menu dropdown-with-icons">
             <li class="nav-item">
@@ -104,9 +138,29 @@
         </div>
         </li>
         </ul>
+
       </div>
   </div>
   </nav>
+  <script>
+    // Select the navbar element
+    const navbar = document.querySelector('.custom-navbar');
+
+    // Function to handle scroll event
+    function handleScroll() {
+      // Check if the page has been scrolled down
+      if (window.scrollY > 0) {
+        // Add the 'scrolled' class to the navbar
+        navbar.classList.add('scrolled');
+      } else {
+        // Remove the 'scrolled' class from the navbar
+        navbar.classList.remove('scrolled');
+      }
+    }
+
+    // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
+  </script>
   <section class="blog_section layout_padding">
     <div class="container">
       <div class="heading_container">

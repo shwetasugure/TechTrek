@@ -26,7 +26,7 @@ body {
 }
 
 .navbar.custom-navbar.scrolled a {
-    color: white !important;
+    color: rgb(255, 244, 244) !important;
 }
 
 .custom-navbar.scrolled {
@@ -549,7 +549,7 @@ ul {
     /* Adjust as needed */
 }
 
-#msg{
+#msg {
     color: #000000;
     margin-left: 1000px;
     display: block;
