@@ -198,10 +198,12 @@
                     </div>
                     <div>
                         <input type="email" name="email" class="form-control" placeholder="E-mail" required>
-                        <input type="text" name="phone" class="form-control" placeholder="Phone" required>
+                        <!-- Ensure the input type for phone is set to "tel" -->
+                        <input type="tel" name="phone" class="form-control" placeholder="Phone" required>
                     </div>
-                    <textarea rows="5" id="msg" required placeholder="Message" name="message" class="form-control"></textarea>
-                    <input type="submit" class="send-btn" value="send message" required>
+                    <textarea rows="5" id="msg" required placeholder="Message" name="message"
+                        class="form-control"></textarea>
+                    <input type="submit" class="send-btn" value="Send Message" required>
                 </form>
                 <span id="msg2"></span>
 
@@ -209,6 +211,7 @@
                     <img src="image/contact-png.png" alt="">
                 </div>
             </div>
+
             <div class="contact-footer">
                 <h3>Follow Us</h3>
                 <div class="social-links">
@@ -216,7 +219,7 @@
                     <a href="https://medium.com/@shwetasugure333" class="fab fa-medium"></a>
                     <a href="#" class="fab fa-instagram"></a>
                     <a href="https://www.linkedin.com/in/shweta-sugure/" class="fab fa-linkedin"></a>
-                    
+
                 </div>
             </div>
     </section>
@@ -231,14 +234,14 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxyVZsDZhACz5GkyoBqc9o_f0Q7OmRXN4EihjWwsgqJ07oFO2ZxxON8VUvXzLeOVDKf/exec';
         const form = document.forms['submit-to-google-sheet'];
         const msg2 = document.getElementById("msg2");
-    
+
         form.addEventListener('submit', e => {
             e.preventDefault();
             msg2.innerHTML = "Sending message..."; // Show message immediately
-            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     msg2.innerHTML = "Message sent successfully!";
-                    setTimeout(function(){
+                    setTimeout(function () {
                         msg2.innerHTML = "";
                     }, 3000);
                     form.reset();
@@ -246,7 +249,7 @@
                 .catch(error => console.error('Error!', error.message));
         });
     </script>
-    
+
 </body>
 
 </html>
