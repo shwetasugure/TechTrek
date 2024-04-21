@@ -80,6 +80,12 @@
   opacity: 1;
 }
 
+.section-pagination .container {
+  display: flex;
+  justify-content: center;
+}
+
+
 
 #pagination-row .pagination-container {
   height: 100%;
@@ -104,6 +110,105 @@
   /* Adjust the padding as needed */
   line-height: 0.8;
   /* Adjust the line height as needed */
+}
+.container-why {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #f9f6f6;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0;
+}
+
+h2 {
+  color: #f9f2f2;
+  font-size: 1.7rem;
+  margin-top: 20px;
+}
+
+p {
+  color: #f2eeee;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.sections {
+  display: flex;
+  flex-wrap: wrap; /* Allow sections to wrap to next line */
+  justify-content: space-between; /* Distribute sections evenly along the horizontal axis */
+  margin-top: 20px; /* Add margin between h1 and sections */
+}
+
+.section {
+  flex: 1; /* Each section takes equal space */
+  margin: 0 10px; /* Add some space between sections */
+  text-align: center; /* Center-align content */
+}
+
+img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+
+.container-3 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on small screens */
+  max-width: 1200px; /* Limit container width */
+  margin: 0 auto; /* Center container horizontally */
+  padding: 20px;
+}
+
+.text-container {
+  padding-bottom: 20px; /* Add spacing between text and image */
+}
+
+.image-container {
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+}
+
+.image-container img {
+  width: 100%; /* Make image fill its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Media queries for responsiveness */
+@media screen and (min-width: 768px) {
+  .container-3 {
+    flex-direction: row; /* Display items side by side on larger screens */
+    align-items: center; /* Center items vertically */
+  }
+
+  .text-container {
+    flex: 1; /* Take up remaining space */
+    padding-right: 20px; /* Add spacing between text and image */
+  }
+
+  .image-container {
+    flex: 0 0 400px; /* Set width of image container */
+  }
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .container-why {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+
+  h1 {
+    font-size: 40px; /* Decrease font size for smaller screens */
+  }
+
+  .section {
+    flex: 1 1 100%; /* Each section takes full width on smaller screens */
+    margin: 10px 0; /* Adjust margin between sections */
+  }
 }
 
 #icons-row i.now-ui-icons {
