@@ -50,11 +50,28 @@
   border-radius: 3px;
 }
 
+.section-pagination h3.mb-5 {
+  font-size: 3.5rem; /* Adjust the font size as needed */
+}
+
 #pagination-row .pagination-container {
   height: 100%;
   max-height: 100%;
   display: flex;
   align-items: center;
+}
+.section-pagination .nav-pills .nav-link {
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+
+/* Increase the size of the icons */
+.section-pagination .nav-pills .nav-link .tim-icons {
+  font-size: 2rem; /* Adjust the icon size as needed */
+}
+
+.section-pagination .nav-pills .nav-link {
+  padding: 5px 10px; /* Adjust the padding as needed */
+  line-height: 0.8; /* Adjust the line height as needed */
 }
 
 #icons-row i.now-ui-icons {

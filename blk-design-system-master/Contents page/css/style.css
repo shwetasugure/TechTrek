@@ -872,4 +872,13 @@ a:focus {
   color: inherit;
 }
 
+
+.navbar.scrolled .nav-name {
+  color: white;
+}
+@media (max-width: 768px) {
+  .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
+    color: white;
+  }
+}
 /*# sourceMappingURL=style.css.map */
