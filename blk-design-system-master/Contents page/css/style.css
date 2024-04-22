@@ -147,7 +147,7 @@ a:focus {
 }
 
 .navbar.custom-navbar.scrolled a {
-  color: rgb(255, 244, 244) !important;
+  color: rgb(255, 255, 255) !important;
 }
 
 .custom_nav-container {
@@ -876,9 +876,60 @@ a:focus {
 .navbar.scrolled .nav-name {
   color: white;
 }
+
 @media (max-width: 768px) {
   .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
     color: white;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+/*sidebar*/
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  background-color: #f4f4f4;
+  overflow-y: auto;
+}
+
+.sidebar-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.sidebar-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-content ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar-content ul li label {
+  cursor: pointer;
+}
+
+/* Page content styles */
+.page-content {
+  margin-left: 250px;
+  /* Adjust margin to accommodate sidebar width */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .page-content {
+    margin-left: 0;
+  }
+}
