@@ -211,6 +211,40 @@ img {
   }
 }
 
+.container-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-left: 170PX;
+}
+
+.left-images {
+  display: flex;
+}
+
+.left-images img {
+  width: 100px; /* Adjust the width of images as needed */
+  height: auto;
+  margin-right: 50px; /* Add spacing between images */
+}
+
+.right-text {
+  flex: 1;
+  padding-left: 250px;
+}
+
+.right-text p {
+  font-size: 16px; /* Adjust font size as needed */
+  line-height: 1.5;
+}
+
+.right-text p span {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
 #icons-row i.now-ui-icons {
   font-size: 30px;
 }

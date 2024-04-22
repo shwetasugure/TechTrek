@@ -141,3 +141,20 @@ body .btn:hover {
     color: #fff;
     border: solid 2px white;
 }
+
+.footer {
+    position: fixed; /* Fixed position */
+    left: 0;
+    bottom: 0; /* Place at the bottom of the viewport */
+    height: 100px;
+    width: 100%; /* Full width */
+    background-color: #212553; /* Example background color */
+    color: #faf8f8; /* Example text color */
+    padding: 10px 0; /* Example padding */
+    text-align: center; /* Center-align text */
+    font-size: 20px;
+}
+
+.footer p{
+    padding-top: 20px;
+}
