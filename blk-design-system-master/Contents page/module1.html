@@ -51,6 +51,14 @@
       color: black !important;
     }
 
+    .navbar.custom-navbar {
+      background-color: rgba(245, 180, 255, 0) !important;
+    }
+
+    .navbar.custom-navbar.scrolled {
+      background-color: rgb(37, 40, 90) !important;
+    }
+
     .navbar.custom-navbar .dropdown-menu a {
       color: black !important;
     }
@@ -142,6 +150,41 @@
       </div>
   </div>
   </nav>
+  <div class="sidebar">
+    <h3>Modules</h3>
+    <ul class="module-list">
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module1"><a href="#">Module 1</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 2</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 3</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 4</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 5</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 6</a></label>
+      </li>
+      <li class="checkbox-container">
+        <input type="checkbox" id="module2">
+        <label for="module2"><a href="#">Module 7</a></label>
+      </li>
+      <!-- Add more modules here -->
+    </ul>
+  </div>
+
   <script>
     // Select the navbar element
     const navbar = document.querySelector('.custom-navbar');
@@ -161,7 +204,6 @@
     // Add scroll event listener
     window.addEventListener('scroll', handleScroll);
   </script>
-
 
 
   <section class="blog_section layout_padding">
@@ -316,8 +358,9 @@
         <h4>© 2024 TechTrek</h4>
       </center>
     </div>
-    </div>
   </footer>
+
+
   <!-- footer section -->
 
 
