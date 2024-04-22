@@ -80,9 +80,7 @@
                 <div class="navbar-collapse-header">
                     <div class="row">
                         <div class="col-6 collapse-brand">
-                            <a>
-
-                            </a>
+                            <a></a>
                         </div>
                         <div class="col-6 collapse-close text-right">
                             <button type="button" class="navbar-toggler" data-toggle="collapse"
@@ -94,7 +92,6 @@
                     </div>
                 </div>
                 <ul class="navbar-nav">
-
                     <li class="dropdown nav-item">
                         <div class="dropdown-menu dropdown-with-icons">
                     <li class="nav-item">
@@ -122,7 +119,22 @@
             </ul>
         </div>
         </div>
+
+        </div>
     </nav>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var button = document.querySelector('.navbar-toggler');
+            var menuItems = document.querySelectorAll('.dropdown-menu.dropdown-with-icons .nav-item a');
+
+            button.addEventListener('click', function () {
+                menuItems.forEach(function (item) {
+                    item.classList.toggle('white-text');
+                });
+            });
+        });
+    </script>
+
     <script>
         // Select the navbar element
         const navbar = document.querySelector('.custom-navbar');

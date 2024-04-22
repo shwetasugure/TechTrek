@@ -50,6 +50,34 @@ body {
     background-color: #001d3d !important;
 }
 
+/* Styles for mobile devices */
+/* Styles for mobile devices */
+/* Styles for mobile devices */
+@media (max-width: 767px) {
+    .navbar-translate button.navbar-toggler.navbar-toggler {
+        color: rgb(255, 255, 255);
+    }
+
+    .navbar-translate button.navbar-toggler.navbar-toggler.scrolled {
+        color: white !important;
+    }
+
+    .navbar-translate button.navbar-toggler.navbar-toggler .navbar-toggler-bar {
+        background-color: rgb(255, 255, 255) !important;
+        /* Default background color */
+    }
+
+    /* Styles for scrolled state */
+    .navbar.custom-navbar i,
+    .navbar.custom-navbar.dropdown-item a {
+        color: white !important;
+    }
+
+    /* Styles for specific links */
+}
+
+
+
 /* Additional Styles for About Us Page */
 
 .contact-bg h3 {
