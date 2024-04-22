@@ -177,6 +177,7 @@ p {
 img {
   display: block;
   margin: 0 auto 15px;
+  height: 70px;
 }
 
 
@@ -252,38 +253,53 @@ img {
 
 .container-4 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically on small screens */
+  align-items: center; /* Center items horizontally */
   padding: 20px;
-  padding-left: 170PX;
-}
-
-.left-images {
-  display: flex;
 }
 
 .left-images img {
-  width: 100px;
-  /* Adjust the width of images as needed */
-  height: auto;
-  margin-right: 50px;
-  /* Add spacing between images */
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Add space between image and text on small screens */
 }
 
 .right-text {
-  flex: 1;
-  padding-left: 250px;
+  text-align: center; /* Center text on small screens */
+  padding-left: 0; /* Remove padding on small screens */
 }
 
 .right-text p {
-  font-size: 16px;
-  /* Adjust font size as needed */
+  font-size: 16px; /* Adjust font size for smaller screens */
   line-height: 1.5;
 }
 
 .right-text p span {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 40px; /* Adjust font size for smaller screens */
+}
+
+.signup-btn {
+  width: 100%; /* Make button full width on small screens */
+  max-width: 200px; /* Set max width for button */
+}
+/* Media Query for smaller screens */
+@media (min-width: 768px) {
+  .container-4 {
+    flex-direction: row; /* Switch back to horizontal layout on larger screens */
+     /* Space items evenly on larger screens */
+    align-items: center; /* Center items vertically */
+  }
+
+  .left-images img {
+    margin-bottom: 0;
+    margin-left:150px;
+     /* Remove margin bottom for images on larger screens */
+  }
+
+  .right-text {
+    padding-left: 50px; /* Add padding back on larger screens */
+    text-align: left; /* Align text to left on larger screens */
+  }
 }
 
 

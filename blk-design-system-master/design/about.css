@@ -267,6 +267,15 @@ ul {
     font-size: 20px;
 }
 
+.year1:hover,
+.year2:hover,
+.year3:hover,
+.year4:hover {
+    transform: scale(1.05); /* Increase the size of the image on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+}
+
 @media only screen and (max-width: 768px) {
     .container .content1 {
         flex-direction: column;
@@ -291,6 +300,7 @@ ul {
     .year4 {
         width: 100%;
     }
+
 
     .year {
         margin-bottom: 20px;

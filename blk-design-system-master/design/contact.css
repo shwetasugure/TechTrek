@@ -240,7 +240,7 @@ body {
     font-size: 1rem;
     text-transform: uppercase;
     color: #fff;
-    background: #f7327a;
+    background: #171941;
     border: none;
     border-radius: 5px;
     padding: 0.7rem 1.5rem;
@@ -257,7 +257,7 @@ body {
 
 .send-btn:hover {
     opacity: 0.8;
-    background-color: #000000;
+    background-color: #f7327a;
     border-color: white;
     border: 2px solid rgb(255, 255, 255);
 }

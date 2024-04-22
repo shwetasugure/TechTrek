@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: url(/login.jpg);
+    background: linear-gradient(270deg, #df99ff, rgb(255, 255, 255)) !important;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -24,6 +24,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
     overflow: hidden;
+    padding-top: 100px;
 }
 
 .container::before {
@@ -33,7 +34,7 @@ body {
     left: -50%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(-45deg, #60dbe6, #4381ec);
+    background: linear-gradient(-45deg, #6653ac, #171941);
     z-index: 6;
     transform: translateX(100%);
     transition: 1s ease-in-out;
