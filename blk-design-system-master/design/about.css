@@ -271,9 +271,25 @@ ul {
 .year2:hover,
 .year3:hover,
 .year4:hover {
-    transform: scale(1.05); /* Increase the size of the image on hover */
-    transition: transform 0.3s ease; /* Smooth transition */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+    transform: scale(1.05);
+    /* Increase the size of the image on hover */
+    transition: transform 0.3s ease;
+    /* Smooth transition */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Add a box shadow */
+}
+
+@media (max-width: 767px) {
+
+    .navbar.custom-navbar .nav-link,
+    .navbar.custom-navbar .dropdown-item {
+        color: rgb(249, 243, 243) !important;
+    }
+
+    .navbar.custom-navbar .nav-link,
+    .navbar.custom-navbar .dropdown-item i {
+        color: rgb(249, 243, 243) !important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
