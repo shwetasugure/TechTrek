@@ -65,6 +65,9 @@ body {
   position: relative;
   font-weight: bold;
   text-transform: uppercase;
+  color: #000000;
+  font-size: 40px;
+  margin-top: -80px;
 }
 
 /*header section*/
@@ -364,12 +367,11 @@ a:focus {
 
 
 .blog_section .container{
-  padding-left: 100px;
+  padding-left: 150px;
 }
 
 .blog_section .box {
   margin-top: 55px;
-  margin-left: 40px;
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
@@ -825,7 +827,7 @@ a:focus {
   margin-top: 60px;
   top: 0;
   left: 0;
-  width: 200px;
+  width: 255px;
   height: 100%;
   /* Adjusted height to leave space for both header and footer */
   background-color: rgb(37, 40, 90);
@@ -833,6 +835,7 @@ a:focus {
   /* Adjusted z-index */
   overflow-y: auto;
   bottom: 60px;
+  border-radius: 5px  ;
   /* Leave space for the footer */
 }
 
@@ -874,7 +877,7 @@ a:focus {
 }
 
 .module-list a:hover {
-  color: #afafaf;
+  color: #ffc3f1;
 }
 
 
@@ -894,5 +897,80 @@ a:focus {
 
   .page-content {
     margin-left: 0;
+  }
+}
+
+/* Media queries for extra small devices (phones) */
+@media (max-width: 575.98px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .custom_nav-container .navbar-collapse {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: auto;
+    background-color: transparent;
+    border-top: none;
+    transition: none;
+    max-height: 100%;
+    overflow: visible;
+    z-index: auto;
+  }
+
+  .custom_nav-container .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom_nav-container .navbar-nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .custom_nav-container .navbar-nav li a {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .custom_nav-container .navbar-nav .dropdown-menu {
+    position: relative;
+    width: 100%;
+  }
+}
+
+/* Media Queries */
+@media only screen and (max-width: 767px) {
+  .heading_container h2 {
+    font-size: 30px;
+  }
+
+  .hero_area {
+    padding-top: 80px;
+  }
+
+  .box{
+    height: auto;
+    width: 100px;
+    padding-left: -60px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .heading_container h2 {
+    font-size: 24px;
+  }
+
+  .hero_area {
+    padding-top: 60px;
   }
 }
