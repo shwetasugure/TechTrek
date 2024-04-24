@@ -135,7 +135,7 @@ a:focus {
 
 .module-list {
     list-style: none;
-    padding: 0;
+    padding: 15px;
 }
 
 .module-list li {
@@ -146,6 +146,8 @@ a:focus {
 
 .module-list label {
     cursor: pointer;
+    color: white;
+    margin-top: 10px;
 }
 
 .module-list a {
