@@ -1,150 +1,113 @@
-# [Blk• Design  System](http://demos.creative-tim.com/blk-design-system/index.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+# TechTrek: Empowering Engineering Aspirants ✨
 
-![alt text](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/blk-design-system/opt_blk_thumbnail.jpg "Blk• Design System")
+**TechTrek** is a one-stop platform designed to empower engineering students by enhancing their skill development and career advancement. Our goal is to bridge the gap between academic knowledge and industry demands, focusing on both technical and soft skills. 
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Literature Review](#literature-review)
+3. [Problem Statement](#problem-statement)
+4. [Objectives](#objectives)
+5. [Project Type](#project-type)
+6. [Proposed Solution](#proposed-solution)
+7. [Conclusion](#conclusion)
+8. [References](#references)
 
-**[Blk• Design  System](http://demos.creative-tim.com/blk-design-system/index.html)** is a responsive Bootstrap 4 kit provided for free by Creative Tim. It is a beautiful cross-platform UI kit featuring over 70 elements and 3 templates.
+## Introduction
+TechTrek is designed to be a comprehensive platform for engineering students, aimed at enhancing their skills and preparing them for a successful career. The platform focuses on refining essential skills such as communication, teamwork, problem-solving, and adaptability, helping students unlock their full potential.
 
-Now will help you create a clean and simple website that is a perfect fit for today's black design. It is built using the 12 column grid system, with components designed to fit together perfectly. It makes use of bold colours, beautiful typography, clear photography and spacious arrangements.
+## Literature Review
+Our project is grounded in extensive research on skill development in engineering education. Key references include:
 
-## Complex Documentation
+1. Eggleston, A. G., & Rabb, R. J. (2018) - Focuses on improving students' technical writing and communication skills through Project-based Learning.
+2. Wickens, J. D. J., & Norris, D. H. (2018) - Highlights the importance of developing soft skills alongside technical knowledge.
+3. Osman, W. A. M., et al. (2012) - Emphasizes the role of educators in promoting soft skill development.
+4. Andonova, V., et al. (2023) - Discusses the effectiveness of immersive learning in skill enhancement.
+5. Dogara, G., et al. (2020) - Demonstrates the significance of Project-Based Learning in integrating soft skills.
+6. Sujová, E., et al. (2021) - Analyzes the expectations of employers regarding graduates' soft skills.
+7. Nasir, A. N. M., et al. (2011) - Highlights the necessity for continuous skill enhancement to meet industry requirements.
+8. Riem, N., et al. (2012) - Examines the correlation between technical and non-technical skills.
+9. Andújar-Montoya, M. D., et al. (2017) - Discusses the alignment of skills with current market contexts.
+10. Patacsil, F. F., & Tablatin, C. L. S. (2017) - Explores the importance of both soft and hard skills in meeting industry demands.
 
-Each element is well presented in a very complex documentation. You can read more about the idea behind this design system here. You can check the components here and the foundation here.
+## Problem Statement
+TechTrek aims to address the challenges faced by engineering students by providing a comprehensive platform for skill development. The platform focuses on both technical and soft skills, bridging the gap between academic knowledge and industry expectations.
 
-## Bootstrap 4 Support
+## Objectives
+- Address the multifaceted challenges faced by engineering students.
+- Develop and enhance soft skills.
+- Bridge the skill gap between academic learning and industry needs.
 
-Blk• Design System is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Blk• Design System style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
+## Project Type
+TechTrek is a **Proof of Concept** project with the following timeline:
+- Survey/Research
+- Problem Analysis
+- Planning
+- Design
+- Implementation
+- Testing
+- Debugging
+- Deployment & Management
 
-## Table of contents
+### Target Audience
+Engineering students preparing for campus placements.
 
-* [Getting Started](#getting-started)
-* [Example Pages](#example-pages)
-* [Documentation](#documentation)
-* [Tutorial](#tutorial)
-* [File Structure](#file-structure)
-* [Browser Support](#browser-support)
-* [Technical Support or Questions](#technical-support-or-questions)
-* [Useful Links](#useful-links)
+### Scalability
+TechTrek is designed as a web application, allowing users to engage from anywhere with an internet connection. The platform is scalable, accessible, cross-platform compatible, and cost-effective, providing an inclusive and sustainable learning experience.
 
-## Getting Started
+## Proposed Solution
+**TechTrek** offers a comprehensive learning experience through the following modules:
+1. **Soft Skills Module**
+2. **Programming Module**
+3. **Project Module**
+4. **Placement Module**
+   ![image](https://github.com/user-attachments/assets/5db41f31-f2e3-4852-ba38-c2009937a094)
 
-We've also included an optional Gulp file to help you get started with theme customization. You'll need to install Node.js and Gulp before using our included gulpfile.js.
+### Content:
+- **Videos**: Integrated and informative videos on topics such as GitHub, improving social media presence, enhancing resumes, and pursuing internships.
+- **Blogs**: Medium articles on team building, attending workshops, project ideas, and more.
+- **Existing Resources**: Curated resources on aptitude, programming skills, and data structures and algorithms (DSA).
+ ![image](https://github.com/user-attachments/assets/72a4738a-e918-418a-8675-2207ed558e09)
 
-1. Download the project's zip
-2. Make sure you have node.js (https://nodejs.org/en/) installed
-3. Type `npm install` in terminal/console in the source folder where `package.json` is located
-4. You will find all the branding colors inside `assets/scss/blk-design-system/custom/_variables.scss`. You can change them with a `HEX` value or with other predefined variables.
-5. Run in terminal `gulp compile-scss` for a single compilation or `gulp watch` for continous compilation of the changes that you make in `*.scss` files. This command should be run in the same folder where `gulpfile.js` and `package.json` are located
-6. Run in terminal `gulp default` for opening the Dashboard Page (default) of the product.
+### User flow Diagram
+![image](https://github.com/user-attachments/assets/411e8c0f-d4cc-4d42-9380-d1f8687698df)
 
-## Example Pages
+### SnapShots of the Web Application
+![image](https://github.com/user-attachments/assets/d5baeaa1-0f11-4d4a-8f8f-83c471c51229)
+![image](https://github.com/user-attachments/assets/53930200-f765-4456-a61f-ec709f0e066c)
+![image](https://github.com/user-attachments/assets/cd19421a-faec-45d6-b941-e77f4b457da2)
+![image](https://github.com/user-attachments/assets/3be2dbf5-039c-4f42-902c-da2330dbba87)
+![image](https://github.com/user-attachments/assets/ae90b194-e12c-4bd4-91c6-c7c35e066423)
+![image](https://github.com/user-attachments/assets/42a31349-1882-40fe-99a6-03e3abccc4ee)
 
-We wanted to fully display the power of this kit, so the kit comes packed with examples showing you how to use the components. Inside the product you will find:
+### Technology Stack:
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
 
-+ [Live Preview](http://demos.creative-tim.com/blk-design-system/index.html)
-+ [Profile Page](http://demos.creative-tim.com/blk-design-system/examples/profile-page.html)
-+ [Register Page](http://demos.creative-tim.com/blk-design-system/examples/register-page.html)
-+ [Landing Page](http://demos.creative-tim.com/blk-design-system/examples/landing-page.html)
+## Conclusion
+TechTrek addresses critical challenges in skill development and career advancement for engineering students. By integrating technical and soft skills development, the platform offers a user-friendly and inclusive learning experience, ensuring maximum accessibility and scalability.
 
-## Documentation
+## References
+- [Eggleston, A. G., & Rabb, R. J. (2018)](https://peer.asee.org/technical-communication-for-engineers-improving-professional-and-technical-skills)
+- [Wickens, J. D. J., & Norris, D. H. (2018)](https://www.tandfonline.com/doi/full/10.1080/00393630.2018.1486078)
+- [Osman, W. A. M., et al. (2012)](https://researchportal.murdoch.edu.au/esploro/outputs/journalArticle/Educator-Perceptions-of-Soft-Skill-Development/991005544297907891)
+- [Andonova, V., et al. (2023)](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1176697/full)
+- [Dogara, G., et al. (2020)](https://ieeexplore.ieee.org/abstract/document/9085387)
+- [Sujová, E., et al. (2021)](https://doi.org/10.3390/su132413807)
+- [Nasir, A. N. M., et al. (2011)](https://www.sciencedirect.com/science/article/abs/pii/S0002961005808438)
+- [Riem, N., et al. (2012)](https://doi.org/10.1093/bja/aes256)
+- [Andújar-Montoya, M. D., et al. (2017)](https://library.iated.org/view/ANDUJARMONTOYA2017SKI)
+- [Patacsil, F. F., & Tablatin, C. L. S. (2017)](https://www.redalyc.org/pdf/3311/331152600006.pdf)
 
-The documentation for the Blk• Design System is hosted at our [website](https://demos.creative-tim.com/blk-design-system/docs/1.0/getting-started/overview.html).
+## Team Members & Roles
+- **Atharva Joshi**: Graphics Designer, Content Writer
+- **Shweta Sugure**: Overall Scrum, Graphics Designer, Content Writer
+- **Varad Nirgude**: System Design, Database Management, Network Administrator
+- **Sumit Kalshetti**: Database Management
 
-## Tutorial
+## Project Guidance
+- **Project Guide**: Ms. D. D. Awasekar
+- **Industry Mentor**: Mr. Mayur Awati
 
-In order for you to easily be able to use the Blk• Design System, we have created a tutorial page. It shows the structure for the files inside the archive and how to import them. It then features every components with a description and example fr how to use it. You can see the details here ().
-
-## Coming soon
-
-- Vue.js
-- Angular
-- React
-- Sketch
-- Photoshop
-
-## File Structure
-
-Within the download you'll find the following directories and files:
-
-```
-Blk• Design System
-.
-├── CHANGELOG.md
-├── README.md
-├── assets/
-│   ├── css/
-│   │   ├── blk-design-system.css
-│   │   ├── blk-design-system.css.map
-│   │   ├── blk-design-system.min.css
-│   │   └── nucleo-icons.css
-│   ├── demo/
-│   ├── fonts/
-│   ├── img/
-│   ├── js/
-│   │   ├── blk-design-system.js
-│   │   ├── blk-design-system.js.map
-│   │   ├── blk-design-system.min.js
-│   │   ├── core/
-│   │   │   ├── bootstrap.min.js
-│   │   │   ├── jquery.min.js
-│   │   │   └── popper.min.js
-│   │   └── plugins/
-│   └── scss/
-│       ├── blk-design-system/
-│       │   ├── bootstrap/
-│       │   │   ├── mixins/
-│       │   │   └── utilities/
-│       │   └── custom/
-│       │       ├── cards/
-│       │       ├── mixins/
-│       │       ├── sections/
-│       │       ├── utilities/
-│       │       └── vendor/
-│       └── blk-design-system.scss
-├── docs/
-│   └── documentation.html
-├── examples/
-│   ├── landing-page.html
-│   ├── profile-page.html
-│   └── register-page.html
-├── gulpfile.js
-├── index.html
-└── package.json
-```
-
-## Browser Support
-
-At present, we officially aim to support the last two versions of the following browsers:
-
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64">
-
-## Technical Support or Questions
-
-If you have questions or need help integrating the product please [contact us](https://www.creative-tim.com/contact-us) instead of opening an issue.
-
-## Useful Links
-
-- More products from Creative Tim: <https://www.creative-tim.com/bootstrap-themes>
-
-- Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
-
-- Freebies: <http://www.creative-tim.com/products>
-
-- Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
-
-## Social Media:
-
-* Twitter: <https://twitter.com/CreativeTim>
-
-* Facebook: <https://www.facebook.com/CreativeTim>
-
-* Dribbble: <https://dribbble.com/creativetim>
-
-* Google+: <https://plus.google.com/+CreativetimPage>
-
-* Instagram: <https://instagram.com/creativetimofficial>
-
-[CHANGELOG]: ./CHANGELOG.md
-[LICENSE]: ./LICENSE
-[version-badge]: https://img.shields.io/badge/version-1.0.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
+## Sponsored By
+Determinant Technologies Pvt. Ltd.
